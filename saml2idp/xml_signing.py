@@ -7,7 +7,7 @@ import hashlib
 import string
 
 import M2Crypto
-from django.utils import six
+import six
 
 from . import saml2idp_metadata as smd
 from .codex import nice64

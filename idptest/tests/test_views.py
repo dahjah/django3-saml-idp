@@ -18,7 +18,7 @@ try:
 except ImportError:
     from django.core.urlresolvers import reverse
 from django.test import TestCase
-from django.utils import six
+import six
 
 from saml2idp import views
 from saml2idp import exceptions

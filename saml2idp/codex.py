@@ -4,7 +4,7 @@ from __future__ import absolute_import, print_function, unicode_literals
 import zlib
 import base64
 
-from django.utils import six
+import six
 
 def decode_base64_and_inflate( b64string ):
     # b64decode needs a bytes-like object, so
